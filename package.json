@@ -14,12 +14,12 @@
     "vite-plugin-singlefile": "^2.0.2"
   },
   "dependencies": {
-    "@types/google-apps-script": "^1.0.83",
-    "pdf-lib": "^1.17.1"
+    "@types/google-apps-script": "^1.0.83"
   },
   "nodemonConfig": {
     "watch": [
-      "client/", "server/"
+      "client/",
+      "server/"
     ],
     "ext": "js, css, html",
     "exec": "npm run push"
