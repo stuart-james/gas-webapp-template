@@ -1,0 +1,27 @@
+{
+  "name": "gas-webapp-template",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "push": "vite build && node _sync.js && clasp push"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "vite": "^5.3.1",
+    "vite-plugin-singlefile": "^2.0.2"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.83",
+    "pdf-lib": "^1.17.1"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "client/", "server/"
+    ],
+    "ext": "js, css, html",
+    "exec": "npm run push"
+  }
+}
