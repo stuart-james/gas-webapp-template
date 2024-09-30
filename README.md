@@ -5,5 +5,5 @@ A starter template for Google Apps Script Web App projects. Google Apps Script o
 1. Install Clasp
 2. Clone repo
 3. Navigate to the appsScript directory and create a new Apps Script project
-4. run npm install
+4. In terminal, run "npm install"
 5. In terminal, run "nodemon watch" to watch for file changes. 
