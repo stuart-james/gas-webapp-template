@@ -1,4 +1,4 @@
-# Description
+## Description
 A starter template for Google Apps Script Web App projects. Google Apps Script only serves single html files and cannot include external .css or .js files. The build step packges all assets and dependencies into a single html file.
 
 ## Instructions
